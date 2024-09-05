@@ -189,6 +189,11 @@ tl.from(".anim4", {
 
 
 
+let images = document.querySelectorAll(".flex .img img")
+images.forEach((ee)=>{
+    ee.src = `https://www.shutterstock.com/image-vector/black-woman-smiling-portrait-vector-600nw-2281497689.jpg`
+})
+
 
 
 
